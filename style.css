@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(24, 39, 24);
+    position:relative;
+    overflow: hidden;
+}
+.main nav{
+    height: 7vh;
+    background-color: rgb(11, 11, 19);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20vw;
+}
+.first-part{
+    color: white;
+    margin-left: 13vw;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+nav .second-part{
+    /* flex-grow: 80%; */
+   
+    margin-right: 5vw;
+}
+.second-part a{
+    margin-right: 3vw;
+    font-size: 1.3vw;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.front-part{
+    height: 93vh;
+    width: 100%;
+   
+    display: flex;
+}
+.left-part{
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-left: 3vw;
+}
+.name{
+    margin-left: -8vw;  
+}
+.name p{
+    font-size: 2vw;
+}
+.name p span{
+    color: rgb(9, 133, 112);
+    font-weight: 900;
+}
+.name h1{
+    font-size: 4vw;
+    font-weight: 900;
+}
+.about{
+    margin-block: 3vw;
+}
+.about p{
+    font-size: 1.2vw;
+}
+.last-part{
+    margin-left: -21vw;
+    height: 2vw;
+    width: 10vw;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.8vw;
+    margin-top: 1.5vw;
+}
+.last-part button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1vw;
+    color: white;
+    font-weight: 100;
+    padding: 1rem;
+    transition: all cubic-bezier(2, 0, 0, 1) ease-in-out;
+}
+.last-part button:hover{
+    scale: 1.1;
+}
+.right-part{
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.image-part{
+    border: 3px solid white;
+    height: 31vw;
+    width: 28vw;
+    overflow: hidden;
+    margin-bottom: 10vh;
+    background: linear-gradient(to top ,yellow,green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 30px 0px 50px green, -30px -0px 50px green, 0px 30px 50px rgb(11, 138, 81),0px -30px 50px rgb(11, 138, 81), 30px 30px 50px rgb(11, 138, 81),-30px -30px 50px rgb(11, 138, 81),-30px 30px 50px rgb(11, 138, 81),30px -30px 50px rgb(11, 138, 81);
+
+}
+.image-part img{
+    border-radius: 50%;
+    height: 94%;
+    width: 94%;
+    object-fit: cover;
+    /* margin-top: 2vw; */
+}
+.image-part img:hover{
+    filter: grayscale();
+}
+.image-part:hover{
+    filter: grayscale();
+}
+ 
+.icons-part{
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    margin-left: -15vw;
+    margin-top: -5vh;
+    
+}
+.first-iocn{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid rgb(9, 133, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.first-iocn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.first-iocn a i{
+    color: rgb(9, 133, 112);
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+.second-iocn{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid rgb(9, 133, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-iocn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.second-iocn a i{
+    color: rgb(9, 133, 112);
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+.third-iocn{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid rgb(9, 133, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-iocn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.third-iocn a i{
+    color: rgb(9, 133, 112);
+    font-weight: 900;
+    font-size: 1.3vw;
+}
+.fourth-iocn{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 2px solid rgb(9, 133, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-iocn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.fourth-iocn a i{
+    color: rgb(9, 133, 112);
+    font-weight: 900;
+    font-size: 1.3vw;
+}
